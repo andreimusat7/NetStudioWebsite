@@ -1,0 +1,238 @@
+﻿@{
+    ViewBag.Title = "Web design|creare site|magazin online|facebook|Bucuresti|Iasi|Cluj-Napoca|Suceava|Constanta|Timisoara|webdesign|promovare online|grafica publicita";
+}
+@section metatags
+{
+    <meta name="keywords" content="Web design, creare site, magazin online, facebook, Bucuresti, Iasi, Cluj-Napoca, Suceava, Constanta, Timisoare, webdesign, promovare online, grafica publicitara" />
+    <meta name="description" content="Web design, creare site, magazin online, facebook, Bucuresti, Iasi, Cluj-Napoca, Suceava, Constanta, Timisoare, webdesign, promovare online, grafica publicitara" />
+}
+
+@Html.Partial("_SliderPartial")
+
+
+<div class="row">
+    <div class="container">
+        <div class="col-md-12">
+            <div class="panel panel-lightblue">
+                <div class="panel-body">
+                    Ai nevoie de un website? Suntem nerabdatori sa lucram la proiectul tau.
+                    Te rugam sa completezi acest formular <a href="/WebDesign/WebsiteQuoteEstimate" class="btn btn-default">estimare proiect</a> Multumim!
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+<div class="row">
+    <!-- SERVICES -->
+    <div class="container">
+        <div class="col-md-3">
+            <h2>Web development</h2>
+            <p style="text-align:justify">
+                Un site profesional este indispensabl oricarei afaceri. NetStudioDesig va ofera website-uri cu design unic, responsiv, usor de folosit pe care le puteti modifica oricand ptrin interfata de administrare. Fiecare website este optimizat SEO la un nivel standard inca de la inceput. Oferim suport online permanent pentru website, gazduire, inregistrare domeniu si zona de administrare site.
+            </p>
+            <p>
+                <a class="btn btn-default" href="#">Mai mult »</a>
+            </p>
+        </div>
+        <div class="col-md-3">
+            <h2>E-commerce</h2>
+            <p style="text-align:justify">
+                Implementam cu success cele mai bune solutii E-commerce/ E-shop cu catalog de produse, cos de cumparaturi, interfete de plata multiple, inventar produse. Fiecare aplicatie este optimizata SEO inca din faza de productie. Oferim suport online permanent pentru website, gazduire, inregistrare domeniu si zona de administrare site.
+            </p>
+            <p>
+                <a class="btn btn-default" href="#">Mai mult »</a>
+            </p>
+        </div>
+        <div class="col-md-3">
+            <h2>Aplicatii & Servicii web</h2>
+            <p style="text-align:justify">
+                Va oferim posibilitatea de a integra site-ul existent cu diverse servicii web, pe orice tip de business: Travel, Banking, Commerce etc. Aplicatiile windows desktop sporesc productivitatea activitatii Dvs. Proiectam si implementam aplicatii desktop pentru orice activitate sau business.
+
+            </p>
+            <p>
+                <a class="btn btn-default" href="#">Mai mult »</a>
+            </p>
+        </div>
+        <div class="col-md-3">
+            <h2>Design, Hosting, SEO</h2>
+            <p style="text-align:justify">
+                Cream design atractiv pentru toate elementele afacerii tale: site, logo, flyere, reclame, toate pe aceeasi schema de culori stabilita de la inceput. Oferim Hosting profesional (Windows & Linux) in Romania si SUA. Optimizare SEO facem pentru toate applicatiile, le aducem pe prima pagina pentru cuvintele cheie dorite.
+            </p>
+            <p>
+                <a class="btn btn-default" href="#">Mai mult »</a>
+            </p>
+        </div>
+    </div>
+</div> <!--/ SERVICES -->
+
+<div class="row">
+    <!-- PORTO SLIDER -->
+    <div class="container">
+        <div class="col-md-12">
+            <div class="panel panel-lightblue">
+                <div class="panel-heading">
+                    <h3 class="panel-title">Portofoliu. Poti alege un site asemantor </h3>
+                </div>
+                <div class="panel-body" style="max-height:500px;">
+                    <div class="portofolio-carousel">
+
+                        @foreach (var item in ViewBag.porto)
+                        {
+                            <div class="pdiv">
+                                <img src="@item.Thumb" title="Web design creare site magazin online facebook Bucuresti Iasi Cluj-Napoca Suceava Constanta Timisoara webdesign promovare online grafica publicita" alt="Web design creare site magazin online facebook Bucuresti Iasi Cluj-Napoca Suceava Constanta Timisoara webdesign promovare online grafica publicita"> 
+                                <a class="pzoom" href="@item.BigImg" title="Web design creare site magazin online facebook Bucuresti Iasi Cluj-Napoca Suceava Constanta Timisoara webdesign promovare online grafica publicita" data-imagelightbox="b">
+                                    <img src="Content/Images/p_zoom.png" title="Web design creare site magazin online facebook Bucuresti Iasi Cluj-Napoca Suceava Constanta Timisoara webdesign promovare online grafica publicita" alt="Web design creare site magazin online facebook Bucuresti Iasi Cluj-Napoca Suceava Constanta Timisoara webdesign promovare online grafica publicita">
+                                </a> <span class="pprice">@item.Price  € </span>
+                                <span class="portoId">#@item.ItemId</span>
+                        </div>
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div> <!--/ PORTO SLIDER -->
+
+<div class="row">
+    <!-- PRICES -->
+    <div class="container">
+        <div class="col-md-12" style="height: 30px; margin-top: 15px;">
+                    <h3 class="panel-title">Tipuri de website-uri pe care le puteti comanda de la noi </h3>
+               <hr style="margin-top: 5px; margin-bottom: 5px;">
+        </div>
+                <div class="col-md-3">
+                    <div class="panel panel-lightblue">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">Site static</h3>
+                        </div>
+                        <div class="panel-body">
+                            <ul>
+                                <li>Design PSD unic</li>
+                                <li>Creare Html din PSD</li>
+                                <li>Responsive design</li>
+                                <li>Optimizare SEO</li>
+                                <li>Suport online</li>
+                            </ul>
+                            <a class="btn btn-default" href="#">Detalii</a>
+                            <a class="btn btn-default" href="#">Comanda</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="panel panel-lightblue">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">Site dinamic cu administrare</h3>
+                        </div>
+                        <div class="panel-body">
+                            <ul>
+                                <li>Nu necesita cunostinte de programare</li>
+                                <li>Design PSD unic</li>
+                                <li>Creare Html din PSD</li>
+                                <li>Zona de administrare</li>
+                                <li>Optimizare SEO</li>
+                                <li>Suport online</li>
+                                <li>Tutorial pentru zona de admin</li>
+                            </ul>
+                            <a class="btn btn-default" href="#">Detalii</a>
+                            <a class="btn btn-default" href="#">Comanda</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="panel panel-lightblue">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">Magazin OnLine</h3>
+                        </div>
+                        <div class="panel-body">
+                            <ul>
+                                <li>PSD design unic</li>
+                                <li>Creare Html din PSD</li>
+                                <li>Design responsiv</li>
+                                <li>Optimizare SEO</li>
+                                <li>Cos te cumparaturi</li>
+                                <li>Catalog online</li>
+                                <li>Interfete de plata</li>
+                                <li>Suport online</li>
+                                <li>Administrare site</li>
+                                <li>Inventar produse</li>
+                                <li>Tutorial pentru zona de admin</li>
+                            </ul>
+                            <a class="btn btn-default" href="#">Detalii</a>
+                            <a class="btn btn-default" href="#">Comanda</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="panel panel-lightblue">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">Aplicatii web custom</h3>
+                        </div>
+                        <div class="panel-body">
+                            <ul>
+                                <li>Design PSD unic</li>
+                                <li>Creare Html din PSD</li>
+                                <li>Responsive design</li>
+                                <li>Optimizare SEO standard</li>
+                                <li>Creare model si baza de date</li>
+                                <li>Suport online</li>
+                            </ul>
+                            <a class="btn btn-default" href="#">Detalii</a>
+                            <a class="btn btn-default" href="#">Comanda</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="container">
+                <div class="col-md-4">
+                    <div class="panel panel-lightblue">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">Lucram cu</h3>
+                        </div>
+                        <div class="panel-body">
+                            <ul>
+                                <li>C#, Asp.Net, Asp.Net MVC</li>
+                                <li>Php, MySql</li>
+                                <li>Prestashop, Magento</li>
+                                <li>Html5, CSS3, jQuery, Angular</li>
+                                <li>Wordpress, Drupal, Joomla</li>
+                                <li>Photoshop</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="panel panel-lightblue">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">Contacteaza-ne</h3>
+                        </div>
+                        <div class="panel-body">
+                            Tel:+40.0771.093.829
+                            Mail:contact@NetStudioDesign.com
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="panel panel-lightblue">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">Inscrie-te la Newsletter</h3>
+                        </div>
+                        <div class="panel-body">
+
+                            <div class="form-group inputNewsletter">
+                                <input type="text" class="form-control newsletter" placeholder="Email">
+                            </div>
+                            <button type="submit" class="btn btn-default btnNewsletter">Send</button>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>

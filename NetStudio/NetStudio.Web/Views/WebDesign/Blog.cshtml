@@ -1,0 +1,39 @@
+﻿@{
+    ViewBag.Title = "Web design|creare site|magazin online|facebook|Bucuresti|Iasi|Cluj-Napoca|Suceava|Constanta|Timisoara|webdesign|promovare online|grafica publicita";
+}
+@section metatags
+{
+    <meta name="keywords" content="Web design, creare site, magazin online, facebook, Bucuresti, Iasi, Cluj-Napoca, Suceava, Constanta, Timisoare, webdesign, promovare online, grafica publicitara" />
+    <meta name="description" content="Web design, creare site, magazin online, facebook, Bucuresti, Iasi, Cluj-Napoca, Suceava, Constanta, Timisoare, webdesign, promovare online, grafica publicitara" />
+}
+
+
+
+
+@Html.Partial("_SliderPartial")
+
+<div class="row">
+    <div class="container">
+        <div class="col-md-3">
+            <h2>Categorii</h2>
+
+            <div class="list-group">
+                @foreach (var item in ViewBag.Posts)
+                {
+
+                    <a href="#" class="list-group-item">@item.Title</a>
+                }
+            </div>
+
+        </div>
+        <div class="col-md-9">
+            <h2>Articole</h2>
+            @foreach (var item in ViewBag.Posts)
+            {
+                <h4>@item.Title</h4>
+                @Html.Raw(item.Body);
+            }
+        </div>
+    </div>
+</div>
+

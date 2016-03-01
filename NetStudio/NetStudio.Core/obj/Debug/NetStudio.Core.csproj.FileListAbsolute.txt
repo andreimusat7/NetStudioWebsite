@@ -1,0 +1,9 @@
+H:\[ PROJECTS ]\NetStudioDesignUK\NetStudio\NetStudio.Core\bin\Debug\NetStudio.Core.dll
+H:\[ PROJECTS ]\NetStudioDesignUK\NetStudio\NetStudio.Core\bin\Debug\NetStudio.Core.pdb
+H:\[ PROJECTS ]\NetStudioDesignUK\NetStudio\NetStudio.Core\obj\Debug\NetStudio.Core.dll
+H:\[ PROJECTS ]\NetStudioDesignUK\NetStudio\NetStudio.Core\obj\Debug\NetStudio.Core.pdb
+H:\[ PROJECTS ]\NetStudioDesign.Ro\NetStudio\NetStudio.Core\bin\Debug\NetStudio.Core.dll
+H:\[ PROJECTS ]\NetStudioDesign.Ro\NetStudio\NetStudio.Core\bin\Debug\NetStudio.Core.pdb
+H:\[ PROJECTS ]\NetStudioDesign.Ro\NetStudio\NetStudio.Core\obj\Debug\NetStudio.Core.dll
+H:\[ PROJECTS ]\NetStudioDesign.Ro\NetStudio\NetStudio.Core\obj\Debug\NetStudio.Core.pdb
+H:\[ PROJECTS ]\NetStudioDesign.Ro\NetStudio\NetStudio.Core\obj\Debug\NetStudio.Core.csprojResolveAssemblyReference.cache

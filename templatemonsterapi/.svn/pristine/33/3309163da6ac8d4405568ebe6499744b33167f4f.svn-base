@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{7D766CEC-99EA-48A4-9437-92B1B5042E36}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TemplateMonsterAPI</RootNamespace>
+    <AssemblyName>TemplateMonsterAPI</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Descriptors\AuthorsDescriptor.cs" />
+    <Compile Include="Descriptors\CategoriesDescriptor.cs" />
+    <Compile Include="Descriptors\Constants.cs" />
+    <Compile Include="Descriptors\Culture.cs" />
+    <Compile Include="Descriptors\CurrencyDescriptor.cs" />
+    <Compile Include="Descriptors\FeaturedDescriptor.cs" />
+    <Compile Include="Descriptors\FeaturedTypes.cs" />
+    <Compile Include="Descriptors\KeywordsDescriptor.cs" />
+    <Compile Include="Descriptors\RangedUrlDescriptor.cs" />
+    <Compile Include="Descriptors\ScreenshotsFilterOnly.cs" />
+    <Compile Include="Descriptors\ScreenshotsOrderBy.cs" />
+    <Compile Include="Descriptors\SourcesDescriptor.cs" />
+    <Compile Include="Descriptors\StylesDescriptor.cs" />
+    <Compile Include="Descriptors\TemplateCategoryDescriptor.cs" />
+    <Compile Include="Descriptors\TemplateStyleDescriptor.cs" />
+    <Compile Include="Descriptors\TemplateTypesDescriptor.cs" />
+    <Compile Include="Entity\Author.cs" />
+    <Compile Include="Entity\Category.cs" />
+    <Compile Include="Entity\Currency.cs" />
+    <Compile Include="Entity\Featured.cs" />
+    <Compile Include="Entity\Keyword.cs" />
+    <Compile Include="Entity\Screenshot.cs" />
+    <Compile Include="Entity\Source.cs" />
+    <Compile Include="Entity\Style.cs" />
+    <Compile Include="Entity\TemplateToCategory.cs" />
+    <Compile Include="Entity\TemplateToStyle.cs" />
+    <Compile Include="Entity\TemplateType.cs" />
+    <Compile Include="IRequestExecutor.cs" />
+    <Compile Include="Currency.cs" />
+    <Compile Include="Descriptors\IUrlDescriptor.cs" />
+    <Compile Include="ITemplateMonsterGateway.cs" />
+    <Compile Include="Parser\IResultParser.cs" />
+    <Compile Include="Parser\ResultParser.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Descriptors\ScreenshotsDescriptor.cs" />
+    <Compile Include="Descriptors\UrlDescriptorBase.cs" />
+    <Compile Include="TemplateMonsterGateway.cs" />
+    <Compile Include="UrlDescriptorBaseExtensions.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

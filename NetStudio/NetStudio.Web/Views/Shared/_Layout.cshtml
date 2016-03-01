@@ -1,0 +1,478 @@
+﻿
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NetStudioDesign @ViewBag.Title </title>
+    @RenderSection("metatags", false)
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+    
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic' rel='stylesheet' type='text/css'>
+    <link href="http://fonts.googleapis.com/css?family=Oswald:300,400,700" rel="stylesheet" type="text/css" />
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,300,400italic,400,600italic,600,700italic,700,800italic,800" rel="stylesheet" type="text/css" />
+    <link href="http://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet" type="text/css" />
+    <link href="http://fonts.googleapis.com/css?family=Roboto+Condensed:400,700,300" rel="stylesheet" type="text/css" />
+    <link rel="alternate" href="http://www.netstudiodesign.ro/" hreflang="ro-RO" />
+</head>
+<body>
+    <div class="row blue">
+        <!-- TOP BAR --->
+        <div class="container">
+            <div class="col-md-2">
+                <a href="#"><img src="/Images/Icons/icon_facebook.png" /></a>
+                <a href="#"><img src="/Images/Icons/icon_bird.png" /></a>
+                <a href="#"><img src="/Images/Icons/icon_dots.png" /></a>
+                <a href="#"><img src="/Images/Icons/icon_google.png" /></a>
+                <a href="#"><img src="/Images/Icons/icon_pinterest.png" /></a>
+            </div>
+            <div class="col-md-6 color-white">
+                <span style="display:inline-block"> <a href="skype:netstudiodesign?call" style="margin-top:2px; display:block;"> <img style="vertical-align:top" src="/Images/Icons/icon_skype.png" /> Apel gratuit Skype <span></span> </a></span>
+                <span class="glyphicon glyphicon-earphone" style="margin-top:4px;"></span> +40.771.093.829
+                <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> contact@netstudiodesign.com
+            </div>
+            <div class="col-md-4">
+                    @Html.Partial("_LoginPartial")
+            </div>
+            </div>
+    </div><!--/ TOP BAR --->
+
+    <div class="row">
+        <!-- LOGO BAR --->
+        <div class="container">
+            <div class="col-md-4">
+                <a href="" class="logo"><img style="max-width:300px;" src="/Images/Icons/logo.png" /></a>
+                <span class="motto">Empowering your bussiness</span>
+            </div>
+            <div class="col-md-8">
+            </div>
+        </div><!--/ LOGO BAR --->
+    </div>
+
+    <div class="row blue color-white">
+        <!-- MENU BAR --->
+        <div class="container">
+            <div class="col-md-12">
+                <ul class="nav navbar-nav">
+                    <li>
+                        @Html.ActionLink("Home", "Index", "WebDesign")
+                    </li>
+                    <li>
+                       @Html.ActionLink("Despre", "About", "WebDesign")
+                    </li>
+                    <li>
+                        @Html.ActionLink("Blog", "Blog", "WebDesign")
+                    </li>
+                    <li>
+                        @Html.ActionLink("Portofoliu", "Portofolio", "WebDesign")
+                    </li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#" id="download">Servicii<span class="caret"></span></a>
+                        <ul class="dropdown-menu" aria-labelledby="download">
+                            <li><a href="#">User interface design</a></li>
+                            <li><a href="#">Digital design services</a></li>
+                            <li class="divider"></li>
+                            <li><a href="#">PSD to Html</a></li>
+                            <li><a href="#">Html Frameworks Integration</a></li>
+                            <li class="divider"></li>
+                            <li><a href="#">Web development</a></li>
+                            <li><a href="#"></a></li>
+                            <li class="divider"></li>
+                            <li><a href="#">Search engine optinisation</a></li>
+                            <li><a href="#">Search engine marketing</a></li>
+                            <li class="divider"></li>
+                            <li><a href="#">Application development</a></li>
+                            <li><a href="#">Mobile application development</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#" id="download">Outsourcing <span class="caret"></span></a>
+                        <ul class="dropdown-menu" aria-labelledby="download">
+                            <li><a href="#">Php & Mysql</a></li>
+                            <li><a href="#">Php Frameworks</a></li>
+                            <li class="divider"></li>
+                            <li><a href="#">Jquery</a></li>
+                            <li><a href="#">Jquery Frameworks</a></li>
+                            <li class="divider"></li>
+                            <li><a href="#">SEO</a></li>
+                            <li class="divider"></li>
+                            <li><a href="#">C#, Asp.Net, Asp.Net MVC</a></li>
+                            <li><a href="#">.Net Frameworks</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        @Html.ActionLink("Estimare proiect", "WebsiteQuoteEstimate", "WebDesign")
+                    </li>
+                    <li>
+                        @Html.ActionLink("Contact", "Contact", "WebDesign")
+                    </li>
+                </ul>
+
+                <form class="navbar-form navbar-right" role="search" style="padding-top:3px;">
+                    <div class="form-group">
+                        <input type="text" class="form-control-menu" placeholder="Cauta">
+                    </div>
+                    <button type="submit" class="btn btn-green">Trimite</button>
+                </form>
+
+            </div>
+        </div>
+
+
+    </div><!--/ MENU BAR --->
+
+   
+
+   
+    @RenderBody()
+
+ 
+
+    <div class="row darkblue">
+        <!-- FOOTER -->
+        <div class="container">
+            <div class="col-md-3 color-white">
+                <h4>Servicii</h4>
+                <ul>
+                    <li><a href="#">Web development</a></li>
+                    <li><a href="#">E-commerce</a></li>
+                    <li><a href="#">Web app integration</a></li>
+                    <li><a href="#">Design, Hosting, SEO </a></li>
+                </ul>
+            </div>
+            <div class="col-md-3 color-white">
+                <h4>Already made</h4>
+                <ul>
+                    <li><a href="#">Restaurants</a></li>
+                    <li><a href="#">Agricultural</a></li>
+                    <li><a href="#">Politics</a></li>
+                    <li><a href="#">Cars</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3 color-white">
+                <h4>Despre</h4>
+                <ul>
+                    <li><a href="#">Hosting</a></li>
+                    <li><a href="#">SEO & SEM</a></li>
+                    <li><a href="#">Award wining Support</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3 color-white">
+                <h4>Outsource your work to us</h4>
+                <ul>
+                    <li><a href="#">Php & Mysql</a></li>
+                    <li><a href="#">Jquery, Angular</a></li>
+                    <li><a href="#">Optimizare SEO</a></li>
+                    <li><a href="#">C#,Asp,AspMVC</a></li>
+                    <li><a href="#">Php CMS</a></li>
+                    <li><a href="#">.Net Frameworks</a></li>
+                    <li><a href="#">PSD and PSD to Html</a></li>
+                </ul>
+            </div>
+
+            <div class="col-md-3 color-white" style="font-size:12px;">
+                <span>@DateTime.Now.Year - ©NetStudioDesign</span>
+                <a href="https://plus.google.com/108867829386732782051" rel="publisher">Find us on Google+</a>
+                <link rel="publisher" href="https://plus.google.com/u/0/108867829386732782051">
+            </div>
+            <div class="col-md-3 color-white" style="font-size:12px;">
+            </div>
+            <div class="col-md-3 color-white" style="font-size:12px;">
+            </div>
+            <div class="col-md-3 color-white" style="font-size:12px;">
+                    <img src="~/Images/Icons/microsoftcertified.png" />
+            </div>
+            </div> <!--/ FOOTER -->
+
+
+    </div>
+
+    <div id="sharer" style="left: auto; right: 0px; top: 40%;"></div>
+
+        @Scripts.Render("~/bundles/jquery")
+        @Scripts.Render("~/bundles/bootstrap")
+        @RenderSection("scripts", required: false)
+
+
+
+        <script type="text/javascript">
+            $('.portofolio-carousel').slick({
+                dots: false,
+                infinite: false,
+                speed: 300,
+                slidesToShow: 3,
+                slidesToScroll: 3,
+                autoplay: true,
+                autoplaySpeed: 3000,
+                responsive: [
+                  {
+                      breakpoint: 1024,
+                      settings: {
+                          slidesToShow: 3,
+                          slidesToScroll: 3,
+                          infinite: true,
+                          dots: true
+                      }
+                  },
+                  {
+                      breakpoint: 600,
+                      settings: {
+                          slidesToShow: 2,
+                          slidesToScroll: 2
+                      }
+                  },
+                  {
+                      breakpoint: 480,
+                      settings: {
+                          slidesToShow: 1,
+                          slidesToScroll: 1
+                      }
+                  }
+                  // You can unslick at a given breakpoint now by adding:
+                  // settings: "unslick"
+                  // instead of a settings object
+                ]
+            });
+        </script>
+
+        <script>
+            var activityIndicatorOn = function () {
+                $('<div id="imagelightbox-loading"><div></div></div>').appendTo('body');
+            },
+                activityIndicatorOff = function () {
+                    $('#imagelightbox-loading').remove();
+                },
+
+
+                // OVERLAY
+
+                overlayOn = function () {
+                    $('<div id="imagelightbox-overlay"></div>').appendTo('body');
+                },
+                overlayOff = function () {
+                    $('#imagelightbox-overlay').remove();
+                },
+
+
+                // CLOSE BUTTON
+
+                closeButtonOn = function (instance) {
+                    $('<button type="button" id="imagelightbox-close" title="Close"></button>').appendTo('body').on('click touchend', function () { $(this).remove(); instance.quitImageLightbox(); return false; });
+                },
+                closeButtonOff = function () {
+                    $('#imagelightbox-close').remove();
+                },
+
+
+                // CAPTION
+
+                captionOn = function () {
+                    var description = $('a[href="' + $('#imagelightbox').attr('src') + '"] img').attr('alt');
+                    if (description.length > 0)
+                        $('<div id="imagelightbox-caption">' + description + '</div>').appendTo('body');
+                },
+                captionOff = function () {
+                    $('#imagelightbox-caption').remove();
+                },
+
+
+                // NAVIGATION
+
+                navigationOn = function (instance, selector) {
+                    var images = $(selector);
+                    if (images.length) {
+                        var nav = $('<div id="imagelightbox-nav"></div>');
+                        for (var i = 0; i < images.length; i++)
+                            nav.append('<button type="button"></button>');
+
+                        nav.appendTo('body');
+                        nav.on('click touchend', function () { return false; });
+
+                        var navItems = nav.find('button');
+                        navItems.on('click touchend', function () {
+                            var $this = $(this);
+                            if (images.eq($this.index()).attr('href') != $('#imagelightbox').attr('src'))
+                                instance.switchImageLightbox($this.index());
+
+                            navItems.removeClass('active');
+                            navItems.eq($this.index()).addClass('active');
+
+                            return false;
+                        })
+                        .on('touchend', function () { return false; });
+                    }
+                },
+                navigationUpdate = function (selector) {
+                    var items = $('#imagelightbox-nav button');
+                    items.removeClass('active');
+                    items.eq($(selector).filter('[href="' + $('#imagelightbox').attr('src') + '"]').index(selector)).addClass('active');
+                },
+                navigationOff = function () {
+                    $('#imagelightbox-nav').remove();
+                },
+
+
+                // ARROWS
+
+                arrowsOn = function (instance, selector) {
+                    var $arrows = $('<button type="button" class="imagelightbox-arrow imagelightbox-arrow-left"></button><button type="button" class="imagelightbox-arrow imagelightbox-arrow-right"></button>');
+
+                    $arrows.appendTo('body');
+
+                    $arrows.on('click touchend', function (e) {
+                        e.preventDefault();
+
+                        var $this = $(this),
+                            $target = $(selector + '[href="' + $('#imagelightbox').attr('src') + '"]'),
+                            index = $target.index(selector);
+
+                        if ($this.hasClass('imagelightbox-arrow-left')) {
+                            index = index - 1;
+                            if (!$(selector).eq(index).length)
+                                index = $(selector).length;
+                        }
+                        else {
+                            index = index + 1;
+                            if (!$(selector).eq(index).length)
+                                index = 0;
+                        }
+
+                        instance.switchImageLightbox(index);
+                        return false;
+                    });
+                },
+                arrowsOff = function () {
+                    $('.imagelightbox-arrow').remove();
+                };
+
+
+            //	WITH ACTIVITY INDICATION
+
+            $('a[data-imagelightbox="a"]').imageLightbox(
+            {
+                onLoadStart: function () { activityIndicatorOn(); },
+                onLoadEnd: function () { activityIndicatorOff(); },
+                onEnd: function () { activityIndicatorOff(); }
+            });
+
+
+            //	WITH OVERLAY & ACTIVITY INDICATION
+
+            $('a[data-imagelightbox="b"]').imageLightbox(
+            {
+                onStart: function () { overlayOn(); },
+                onEnd: function () { overlayOff(); activityIndicatorOff(); },
+                onLoadStart: function () { activityIndicatorOn(); },
+                onLoadEnd: function () { activityIndicatorOff(); }
+            });
+
+
+            //	WITH "CLOSE" BUTTON & ACTIVITY INDICATION
+
+            var instanceC = $('a[data-imagelightbox="c"]').imageLightbox(
+            {
+                quitOnDocClick: false,
+                onStart: function () { closeButtonOn(instanceC); },
+                onEnd: function () { closeButtonOff(); activityIndicatorOff(); },
+                onLoadStart: function () { activityIndicatorOn(); },
+                onLoadEnd: function () { activityIndicatorOff(); }
+            });
+
+
+            //	WITH CAPTION & ACTIVITY INDICATION
+
+            $('a[data-imagelightbox="d"]').imageLightbox(
+            {
+                onLoadStart: function () { captionOff(); activityIndicatorOn(); },
+                onLoadEnd: function () { captionOn(); activityIndicatorOff(); },
+                onEnd: function () { captionOff(); activityIndicatorOff(); }
+            });
+
+
+            //	WITH ARROWS & ACTIVITY INDICATION
+
+            var selectorG = 'a[data-imagelightbox="g"]';
+            var instanceG = $(selectorG).imageLightbox(
+            {
+                onStart: function () { arrowsOn(instanceG, selectorG); },
+                onEnd: function () { arrowsOff(); activityIndicatorOff(); },
+                onLoadStart: function () { activityIndicatorOn(); },
+                onLoadEnd: function () { $('.imagelightbox-arrow').css('display', 'block'); activityIndicatorOff(); }
+            });
+
+
+            //	WITH NAVIGATION & ACTIVITY INDICATION
+
+            var selectorE = 'a[data-imagelightbox="e"]';
+            var instanceE = $(selectorE).imageLightbox(
+            {
+                onStart: function () { navigationOn(instanceE, selectorE); },
+                onEnd: function () { navigationOff(); activityIndicatorOff(); },
+                onLoadStart: function () { activityIndicatorOn(); },
+                onLoadEnd: function () { navigationUpdate(selectorE); activityIndicatorOff(); }
+            });
+
+
+            //	ALL COMBINED
+
+            var selectorF = 'a[data-imagelightbox="f"]';
+            var instanceF = $(selectorF).imageLightbox(
+            {
+                onStart: function () { overlayOn(); closeButtonOn(instanceF); arrowsOn(instanceF, selectorF); },
+                onEnd: function () { overlayOff(); captionOff(); closeButtonOff(); arrowsOff(); activityIndicatorOff(); },
+                onLoadStart: function () { captionOff(); activityIndicatorOn(); },
+                onLoadEnd: function () { captionOn(); activityIndicatorOff(); $('.imagelightbox-arrow').css('display', 'block'); }
+            });
+
+
+
+        </script>
+
+        <script>
+            jQuery("#layerslider").layerSlider({
+                pauseOnHover: false,
+                autoPlayVideos: false,
+                skinsPath: 'Content/layerslider/skins/'
+            });
+
+            $(document).ready(function () {
+                var url = window.location;
+                $('.navbar .nav').find('.active').removeClass('active');
+                $('.navbar .nav li a').each(function () {
+                    if (this.href == url) {
+                        $(this).parent().addClass('active');
+                    }
+                });
+            });
+
+
+
+
+            $(document).ready(function () {
+                $('#sharer').share({
+                    networks: ['facebook', 'pinterest', 'googleplus', 'twitter', 'linkedin', 'tumblr', 'email', 'stumbleupon', 'digg'],
+                    orientation: 'vertical',
+                    affix: 'right center'
+                });
+
+
+            });
+        </script>
+        <script>
+            (function (i, s, o, g, r, a, m) {
+                i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                    (i[r].q = i[r].q || []).push(arguments)
+                }, i[r].l = 1 * new Date(); a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+            })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+            ga('create', 'UA-48570301-9', 'auto');
+            ga('send', 'pageview');
+
+        </script>
+
+</body>
+</html>

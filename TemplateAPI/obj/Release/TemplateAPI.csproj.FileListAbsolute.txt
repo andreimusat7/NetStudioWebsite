@@ -1,0 +1,13 @@
+H:\[ PROJECTS ]\NetStudioRO\TemplateAPI\bin\Release\TemplateAPI.exe.config
+H:\[ PROJECTS ]\NetStudioRO\TemplateAPI\bin\Release\TemplateAPI.exe
+H:\[ PROJECTS ]\NetStudioRO\TemplateAPI\bin\Release\TemplateAPI.pdb
+H:\[ PROJECTS ]\NetStudioRO\TemplateAPI\bin\Release\NetStudio.Model.dll
+H:\[ PROJECTS ]\NetStudioRO\TemplateAPI\bin\Release\TemplateMonsterAPI.dll
+H:\[ PROJECTS ]\NetStudioRO\TemplateAPI\bin\Release\TemplateMonsterAPI.pdb
+H:\[ PROJECTS ]\NetStudioRO\TemplateAPI\bin\Release\NetStudio.Model.pdb
+H:\[ PROJECTS ]\NetStudioRO\TemplateAPI\obj\Release\TemplateAPI.csprojResolveAssemblyReference.cache
+H:\[ PROJECTS ]\NetStudioRO\TemplateAPI\obj\Release\TemplateAPI.ApiForm.resources
+H:\[ PROJECTS ]\NetStudioRO\TemplateAPI\obj\Release\TemplateAPI.Properties.Resources.resources
+H:\[ PROJECTS ]\NetStudioRO\TemplateAPI\obj\Release\TemplateAPI.csproj.GenerateResource.Cache
+H:\[ PROJECTS ]\NetStudioRO\TemplateAPI\obj\Release\TemplateAPI.exe
+H:\[ PROJECTS ]\NetStudioRO\TemplateAPI\obj\Release\TemplateAPI.pdb

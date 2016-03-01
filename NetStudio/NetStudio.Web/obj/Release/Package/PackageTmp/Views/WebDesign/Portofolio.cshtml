@@ -1,0 +1,68 @@
+﻿
+@model PagedList.IPagedList<NetStudio.Model.Portofolio>
+@using PagedList.Mvc;
+@{
+    ViewBag.Title = "Web design|creare site|magazin online|facebook|Bucuresti|Iasi|Cluj-Napoca|Suceava|Constanta|Timisoara|webdesign|promovare online|grafica publicita";
+}
+@section metatags
+{
+    <meta name="keywords" content="Web design, creare site, magazin online, facebook, Bucuresti, Iasi, Cluj-Napoca, Suceava, Constanta, Timisoare, webdesign, promovare online, grafica publicitara" />
+    <meta name="description" content="Web design, creare site, magazin online, facebook, Bucuresti, Iasi, Cluj-Napoca, Suceava, Constanta, Timisoare, webdesign, promovare online, grafica publicitara" />
+}
+
+
+
+
+@Html.Partial("_SliderPartial")
+
+
+
+<div class="row">
+    <div class="container">
+        <div class="col-md-12">
+            <h2>Portofolio</h2>
+
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="container">
+
+        @foreach (var item in Model)
+        {
+            <div class="col-xs-6 col-md-3">
+                <div class="thumbnail">
+                    <img src="@item.Thumb" alt="...">
+                    <div class="caption">
+                        <div>Thumbnail label</div>
+                        <span>#@item.ItemId</span><br>
+                        <span>@item.Price €  </span><br>
+                        <a href="#" class="btn btn-default" role="button">Detalii</a> 
+                        <a href="Model/@item.ItemId" class="btn btn-default" role="button" target="_blank">Website</a>
+                        <a href="#" class="btn btn-default" role="button">Comanda</a>
+                    </div>
+                </div>
+            </div>
+            @*<div class="col-xs-6 col-md-3">
+                    <a href="#" class="thumbnail">
+                        <img src="@item.Thumb" alt="...">
+                    </a>
+                    <span>@item.Id</span>/<span>@item.Price Eur</span>
+                </div>*@
+        }
+
+    </div>
+</div>
+@if (Model.PageCount > 1)
+{
+    <div class="pager">
+        @Html.PagedListPager(Model, page => Url.Action("Portofolio", new
+                       {
+                           page,
+                           sortOrder = ViewBag.currentSort,
+                     
+                       }))
+        Page @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber) of @Model.PageCount
+    </div>
+}

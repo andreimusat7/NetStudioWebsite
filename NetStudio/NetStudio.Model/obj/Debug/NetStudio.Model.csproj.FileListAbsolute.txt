@@ -1,0 +1,8 @@
+H:\[ PROJECTS ]\NetStudioDesignUK\NetStudio\NetStudio.Model\bin\Debug\NetStudio.Model.dll
+H:\[ PROJECTS ]\NetStudioDesignUK\NetStudio\NetStudio.Model\bin\Debug\NetStudio.Model.pdb
+H:\[ PROJECTS ]\NetStudioDesignUK\NetStudio\NetStudio.Model\obj\Debug\NetStudio.Model.dll
+H:\[ PROJECTS ]\NetStudioDesignUK\NetStudio\NetStudio.Model\obj\Debug\NetStudio.Model.pdb
+H:\[ PROJECTS ]\NetStudioDesign.Ro\NetStudio\NetStudio.Model\bin\Debug\NetStudio.Model.dll
+H:\[ PROJECTS ]\NetStudioDesign.Ro\NetStudio\NetStudio.Model\bin\Debug\NetStudio.Model.pdb
+H:\[ PROJECTS ]\NetStudioDesign.Ro\NetStudio\NetStudio.Model\obj\Debug\NetStudio.Model.dll
+H:\[ PROJECTS ]\NetStudioDesign.Ro\NetStudio\NetStudio.Model\obj\Debug\NetStudio.Model.pdb

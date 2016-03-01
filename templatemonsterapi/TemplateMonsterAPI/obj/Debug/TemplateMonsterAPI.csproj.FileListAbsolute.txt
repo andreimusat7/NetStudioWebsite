@@ -1,0 +1,28 @@
+F:\ASP PROJECTS\templatemonsterapi\TemplateMonsterAPI\bin\Debug\TemplateMonsterAPI.dll
+F:\ASP PROJECTS\templatemonsterapi\TemplateMonsterAPI\bin\Debug\TemplateMonsterAPI.pdb
+F:\ASP PROJECTS\templatemonsterapi\TemplateMonsterAPI\obj\Debug\TemplateMonsterAPI.dll
+F:\ASP PROJECTS\templatemonsterapi\TemplateMonsterAPI\obj\Debug\TemplateMonsterAPI.pdb
+H:\[ ASP.NET ]\ASP PROJECTS\templatemonsterapi\TemplateMonsterAPI\bin\Debug\TemplateMonsterAPI.dll
+H:\[ ASP.NET ]\ASP PROJECTS\templatemonsterapi\TemplateMonsterAPI\bin\Debug\TemplateMonsterAPI.pdb
+H:\[ ASP.NET ]\ASP PROJECTS\templatemonsterapi\TemplateMonsterAPI\obj\Debug\TemplateMonsterAPI.csprojResolveAssemblyReference.cache
+H:\[ ASP.NET ]\ASP PROJECTS\templatemonsterapi\TemplateMonsterAPI\obj\Debug\TemplateMonsterAPI.dll
+H:\[ ASP.NET ]\ASP PROJECTS\templatemonsterapi\TemplateMonsterAPI\obj\Debug\TemplateMonsterAPI.pdb
+H:\[ PROJECTS ]\templatemonsterapi\TemplateMonsterAPI\bin\Debug\TemplateMonsterAPI.dll.config
+H:\[ PROJECTS ]\templatemonsterapi\TemplateMonsterAPI\bin\Debug\TemplateMonsterAPI.dll
+H:\[ PROJECTS ]\templatemonsterapi\TemplateMonsterAPI\bin\Debug\TemplateMonsterAPI.pdb
+H:\[ PROJECTS ]\templatemonsterapi\TemplateMonsterAPI\obj\Debug\TemplateMonsterAPI.dll
+H:\[ PROJECTS ]\templatemonsterapi\TemplateMonsterAPI\obj\Debug\TemplateMonsterAPI.pdb
+H:\[ PROJECTS ]\templatemonsterapi\TemplateMonsterAPI\bin\Debug\EntityFramework.dll
+H:\[ PROJECTS ]\templatemonsterapi\TemplateMonsterAPI\bin\Debug\EntityFramework.SqlServer.dll
+H:\[ PROJECTS ]\templatemonsterapi\TemplateMonsterAPI\bin\Debug\EntityFramework.xml
+H:\[ PROJECTS ]\templatemonsterapi\TemplateMonsterAPI\bin\Debug\EntityFramework.SqlServer.xml
+H:\[ PROJECTS ]\NetStudioDesignUK\templatemonsterapi\TemplateMonsterAPI\bin\Debug\TemplateMonsterAPI.dll.config
+H:\[ PROJECTS ]\NetStudioDesignUK\templatemonsterapi\TemplateMonsterAPI\bin\Debug\TemplateMonsterAPI.dll
+H:\[ PROJECTS ]\NetStudioDesignUK\templatemonsterapi\TemplateMonsterAPI\bin\Debug\TemplateMonsterAPI.pdb
+H:\[ PROJECTS ]\NetStudioDesignUK\templatemonsterapi\TemplateMonsterAPI\obj\Debug\TemplateMonsterAPI.dll
+H:\[ PROJECTS ]\NetStudioDesignUK\templatemonsterapi\TemplateMonsterAPI\obj\Debug\TemplateMonsterAPI.pdb
+H:\[ PROJECTS ]\NetStudioDesign.Ro\templatemonsterapi\TemplateMonsterAPI\bin\Debug\TemplateMonsterAPI.dll.config
+H:\[ PROJECTS ]\NetStudioDesign.Ro\templatemonsterapi\TemplateMonsterAPI\bin\Debug\TemplateMonsterAPI.dll
+H:\[ PROJECTS ]\NetStudioDesign.Ro\templatemonsterapi\TemplateMonsterAPI\bin\Debug\TemplateMonsterAPI.pdb
+H:\[ PROJECTS ]\NetStudioDesign.Ro\templatemonsterapi\TemplateMonsterAPI\obj\Debug\TemplateMonsterAPI.dll
+H:\[ PROJECTS ]\NetStudioDesign.Ro\templatemonsterapi\TemplateMonsterAPI\obj\Debug\TemplateMonsterAPI.pdb

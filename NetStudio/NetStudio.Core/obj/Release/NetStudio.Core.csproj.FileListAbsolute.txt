@@ -1,0 +1,8 @@
+H:\[ PROJECTS ]\NetStudioDesignUK\NetStudio\NetStudio.Core\bin\Release\NetStudio.Core.dll
+H:\[ PROJECTS ]\NetStudioDesignUK\NetStudio\NetStudio.Core\bin\Release\NetStudio.Core.pdb
+H:\[ PROJECTS ]\NetStudioDesignUK\NetStudio\NetStudio.Core\obj\Release\NetStudio.Core.dll
+H:\[ PROJECTS ]\NetStudioDesignUK\NetStudio\NetStudio.Core\obj\Release\NetStudio.Core.pdb
+H:\[ PROJECTS ]\NetStudioDesign.Ro\NetStudio\NetStudio.Core\bin\Release\NetStudio.Core.dll
+H:\[ PROJECTS ]\NetStudioDesign.Ro\NetStudio\NetStudio.Core\bin\Release\NetStudio.Core.pdb
+H:\[ PROJECTS ]\NetStudioDesign.Ro\NetStudio\NetStudio.Core\obj\Release\NetStudio.Core.dll
+H:\[ PROJECTS ]\NetStudioDesign.Ro\NetStudio\NetStudio.Core\obj\Release\NetStudio.Core.pdb

@@ -1,0 +1,8 @@
+H:\[ PROJECTS ]\NetStudioDesignUK\NetStudio\NetStudio.Model\bin\Release\NetStudio.Model.dll
+H:\[ PROJECTS ]\NetStudioDesignUK\NetStudio\NetStudio.Model\bin\Release\NetStudio.Model.pdb
+H:\[ PROJECTS ]\NetStudioDesignUK\NetStudio\NetStudio.Model\obj\Release\NetStudio.Model.dll
+H:\[ PROJECTS ]\NetStudioDesignUK\NetStudio\NetStudio.Model\obj\Release\NetStudio.Model.pdb
+H:\[ PROJECTS ]\NetStudioDesign.Ro\NetStudio\NetStudio.Model\bin\Release\NetStudio.Model.dll
+H:\[ PROJECTS ]\NetStudioDesign.Ro\NetStudio\NetStudio.Model\bin\Release\NetStudio.Model.pdb
+H:\[ PROJECTS ]\NetStudioDesign.Ro\NetStudio\NetStudio.Model\obj\Release\NetStudio.Model.dll
+H:\[ PROJECTS ]\NetStudioDesign.Ro\NetStudio\NetStudio.Model\obj\Release\NetStudio.Model.pdb

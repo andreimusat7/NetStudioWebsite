@@ -1,0 +1,32 @@
+C:\Users\Andrei\Documents\Visual Studio 2013\Projects\NetStudio\DataBaseUpdater\obj\Release\DataBaseUpdater.csprojResolveAssemblyReference.cache
+C:\Users\Andrei\Documents\Visual Studio 2013\Projects\NetStudio\DataBaseUpdater\obj\Release\DataBaseUpdater.Form1.resources
+C:\Users\Andrei\Documents\Visual Studio 2013\Projects\NetStudio\DataBaseUpdater\obj\Release\DataBaseUpdater.Properties.Resources.resources
+C:\Users\Andrei\Documents\Visual Studio 2013\Projects\NetStudio\DataBaseUpdater\obj\Release\DataBaseUpdater.csproj.GenerateResource.Cache
+C:\Users\Andrei\Documents\Visual Studio 2013\Projects\NetStudio\DataBaseUpdater\bin\Release\DataBaseUpdater.exe.config
+C:\Users\Andrei\Documents\Visual Studio 2013\Projects\NetStudio\DataBaseUpdater\bin\Release\DataBaseUpdater.exe
+C:\Users\Andrei\Documents\Visual Studio 2013\Projects\NetStudio\DataBaseUpdater\bin\Release\DataBaseUpdater.pdb
+C:\Users\Andrei\Documents\Visual Studio 2013\Projects\NetStudio\DataBaseUpdater\bin\Release\NetStudio.Utils.dll
+C:\Users\Andrei\Documents\Visual Studio 2013\Projects\NetStudio\DataBaseUpdater\bin\Release\TemplateMonsterAPI.dll
+C:\Users\Andrei\Documents\Visual Studio 2013\Projects\NetStudio\DataBaseUpdater\bin\Release\NetStudio.Utils.pdb
+C:\Users\Andrei\Documents\Visual Studio 2013\Projects\NetStudio\DataBaseUpdater\bin\Release\TemplateMonsterAPI.pdb
+C:\Users\Andrei\Documents\Visual Studio 2013\Projects\NetStudio\DataBaseUpdater\obj\Release\DataBaseUpdater.exe
+C:\Users\Andrei\Documents\Visual Studio 2013\Projects\NetStudio\DataBaseUpdater\obj\Release\DataBaseUpdater.pdb
+C:\Users\Andrei\documents\visual studio 2013\Projects\NetStudio\DataBaseUpdater\obj\Release\DataBaseUpdater.FacebookPoster.resources
+C:\Users\Andrei\documents\visual studio 2013\Projects\NetStudio\DataBaseUpdater\bin\Release\Facebook.dll
+C:\Users\Andrei\documents\visual studio 2013\Projects\NetStudio\DataBaseUpdater\bin\Release\Facebook.xml
+H:\Projects\NetStudio\DataBaseUpdater\bin\Release\DataBaseUpdater.exe.config
+H:\Projects\NetStudio\DataBaseUpdater\bin\Release\DataBaseUpdater.exe
+H:\Projects\NetStudio\DataBaseUpdater\bin\Release\DataBaseUpdater.pdb
+H:\Projects\NetStudio\DataBaseUpdater\bin\Release\Facebook.dll
+H:\Projects\NetStudio\DataBaseUpdater\bin\Release\NetStudio.Utils.dll
+H:\Projects\NetStudio\DataBaseUpdater\bin\Release\TemplateMonsterAPI.dll
+H:\Projects\NetStudio\DataBaseUpdater\bin\Release\NetStudio.Utils.pdb
+H:\Projects\NetStudio\DataBaseUpdater\bin\Release\TemplateMonsterAPI.pdb
+H:\Projects\NetStudio\DataBaseUpdater\bin\Release\Facebook.xml
+H:\Projects\NetStudio\DataBaseUpdater\obj\Release\DataBaseUpdater.csprojResolveAssemblyReference.cache
+H:\Projects\NetStudio\DataBaseUpdater\obj\Release\DataBaseUpdater.FacebookPoster.resources
+H:\Projects\NetStudio\DataBaseUpdater\obj\Release\DataBaseUpdater.Form1.resources
+H:\Projects\NetStudio\DataBaseUpdater\obj\Release\DataBaseUpdater.Properties.Resources.resources
+H:\Projects\NetStudio\DataBaseUpdater\obj\Release\DataBaseUpdater.csproj.GenerateResource.Cache
+H:\Projects\NetStudio\DataBaseUpdater\obj\Release\DataBaseUpdater.exe
+H:\Projects\NetStudio\DataBaseUpdater\obj\Release\DataBaseUpdater.pdb

@@ -1,0 +1,16 @@
+H:\[ PROJECTS ]\NetStudioDesign.Ro\NetStudio\DataBaseUpdater\obj\Debug\DataBaseUpdater.csprojResolveAssemblyReference.cache
+H:\[ PROJECTS ]\NetStudioDesign.Ro\NetStudio\DataBaseUpdater\obj\Debug\DataBaseUpdater.FacebookPoster.resources
+H:\[ PROJECTS ]\NetStudioDesign.Ro\NetStudio\DataBaseUpdater\obj\Debug\DataBaseUpdater.Form1.resources
+H:\[ PROJECTS ]\NetStudioDesign.Ro\NetStudio\DataBaseUpdater\obj\Debug\DataBaseUpdater.Properties.Resources.resources
+H:\[ PROJECTS ]\NetStudioDesign.Ro\NetStudio\DataBaseUpdater\obj\Debug\DataBaseUpdater.csproj.GenerateResource.Cache
+H:\[ PROJECTS ]\NetStudioDesign.Ro\NetStudio\DataBaseUpdater\bin\Debug\DataBaseUpdater.exe.config
+H:\[ PROJECTS ]\NetStudioDesign.Ro\NetStudio\DataBaseUpdater\bin\Debug\DataBaseUpdater.exe
+H:\[ PROJECTS ]\NetStudioDesign.Ro\NetStudio\DataBaseUpdater\bin\Debug\DataBaseUpdater.pdb
+H:\[ PROJECTS ]\NetStudioDesign.Ro\NetStudio\DataBaseUpdater\bin\Debug\Facebook.dll
+H:\[ PROJECTS ]\NetStudioDesign.Ro\NetStudio\DataBaseUpdater\bin\Debug\NetStudio.Model.dll
+H:\[ PROJECTS ]\NetStudioDesign.Ro\NetStudio\DataBaseUpdater\bin\Debug\TemplateMonsterAPI.dll
+H:\[ PROJECTS ]\NetStudioDesign.Ro\NetStudio\DataBaseUpdater\bin\Debug\NetStudio.Model.pdb
+H:\[ PROJECTS ]\NetStudioDesign.Ro\NetStudio\DataBaseUpdater\bin\Debug\TemplateMonsterAPI.pdb
+H:\[ PROJECTS ]\NetStudioDesign.Ro\NetStudio\DataBaseUpdater\bin\Debug\Facebook.xml
+H:\[ PROJECTS ]\NetStudioDesign.Ro\NetStudio\DataBaseUpdater\obj\Debug\DataBaseUpdater.exe
+H:\[ PROJECTS ]\NetStudioDesign.Ro\NetStudio\DataBaseUpdater\obj\Debug\DataBaseUpdater.pdb
